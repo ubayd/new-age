@@ -208,11 +208,20 @@ section {
 section h2 {
 	font-size: 50px;
 }
+section.features {
+	background: #00A7E1; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(#00A7E1, #2B5CE3); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#00A7E1, #2B5CE3); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#00A7E1, #2B5CE3); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(#00A7E1, #2B5CE3); /* Standard syntax */
+	height: auto;
+}
 section.features .section-heading {
 	margin-bottom: 100px;
 }
 section.features .section-heading h2 {
 	margin-top: 0;
+	color: white;
 }
 section.features .section-heading p {
 	margin-bottom: 0;
@@ -235,11 +244,13 @@ section.features .feature-item {
 }
 section.features .feature-item h3 {
 	font-size: 30px;
+	color: white;
+}
+section.features .feature-item p {
+	color: white;
 }
 section.features .feature-item i {
 	font-size: 80px;
-	background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-	background: linear-gradient(to left, #7b4397, #dc2430);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -247,6 +258,10 @@ section.features .feature-item i {
 	section.features .device-container, section.features .feature-item {
 		max-width: none;
 	}
+}
+.icon-theme {
+	max-height: 100px;
+	max-width: 100px;
 }
 section.cta {
 	position: relative;
