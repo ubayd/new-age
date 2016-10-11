@@ -175,28 +175,15 @@
 					<div class="row">
 						<div class="col-sm-7">
 							<h2> We <i class="fa fa-heart"></i> new friends! </h2>
-							<h3>
-							Stop Waiting
-							<br>
-							Get Connected </h3>
+							<h3> Stop Waiting </h3><h3> Get Connected </h3>
+							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
 								<form action="//cirxle.us13.list-manage.com/subscribe/post?u=0f971340d8edee6acd2fd9b4b&amp;id=fe50603799" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 									<div id="form-group">
-										<h4>Subscribe to our mailing list</h4>
-										<div class="indicates-required">
-											<span class="asterisk">*</span> indicates required
-										</div>
+										<h3>Get an invite to beta!</h3>
 										<div class="mc-field-group">
-											<label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label>
-											<input type="email" value="" name="EMAIL" class="form-control field" id="mce-EMAIL">
-										</div>
-										<div class="mc-field-group">
-											<label for="mce-FNAME">First Name </label>
-											<input type="text" value="" name="FNAME" class="form-control field" id="mce-FNAME">
-										</div>
-										<div class="mc-field-group">
-											<label for="mce-LNAME">Last Name </label>
-											<input type="text" value="" name="LNAME" class="form-control field" id="mce-LNAME">
+											<label for="mce-EMAIL">Email Address </label>
+											<input type="email" value="" name="EMAIL" class="required email field" id="mce-EMAIL">
 										</div>
 										<div id="mce-responses" class="clear">
 											<div class="response" id="mce-error-response" style="display:none"></div>
@@ -213,15 +200,28 @@
 									</div>
 								</form>
 							</div>
-
+							<!--End mc_embed_signup-->
 						</div>
+						<br>
 						<div class="col-sm-5">
+							<div class="device-container">
+								<div class="device-mockup iphone6_plus portrait white">
+									<div class="device">
+										<div class="screen">
+											<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+											<img src="img/address_book.jpg" class="img-responsive" alt="">
+										</div>
+										<div class="button">
+											<!-- You can hook the "home button" to some JavaScript events or just remove it -->
+										</div>
+									</div>
+								</div>
+							</div>
 
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="overlay"></div>
 		</section>
 
 		<footer>
@@ -243,6 +243,22 @@
 
 		<!-- Theme JavaScript -->
 		<script src="js/new-age.min.js"></script>
+
+		<!-- MailChimp Validation Script -->
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+		<script type='text/javascript'>
+			( function($) {
+					window.fnames = new Array();
+					window.ftypes = new Array();
+					fnames[0] = 'EMAIL';
+					ftypes[0] = 'email';
+					fnames[1] = 'FNAME';
+					ftypes[1] = 'text';
+					fnames[2] = 'LNAME';
+					ftypes[2] = 'text';
+				}(jQuery));
+			var $mcj = jQuery.noConflict(true);
+		</script>
 
 	</body>
 
