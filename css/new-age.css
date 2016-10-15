@@ -133,14 +133,14 @@ header {
 	width: 100%;
 	min-height: auto;
 	overflow-y: hidden;
-	background: linear-gradient(
-	rgba(0, 0, 0, 0.45),
-	rgba(0, 0, 0, 0.45)
-	), url('../img/background_right.jpg') no-repeat center center fixed;
+	
+	background: #000000;
+	background-image: url('../img/background_right2.jpg');
 	-webkit-background-size: auto auto;
 	-moz-background-size: auto auto;
 	-o-background-size: auto auto;
 	background-size: auto auto;
+	/* color: #00A7E1; */
 	color: white;
 }
 header .header-content {
