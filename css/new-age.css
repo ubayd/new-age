@@ -133,7 +133,6 @@ header {
 	width: 100%;
 	min-height: auto;
 	overflow-y: hidden;
-	
 	background: #000000;
 	background-image: url('../img/background_right2.jpg');
 	-webkit-background-size: auto auto;
@@ -336,11 +335,18 @@ label {
 	color: #00A7E1;
 }
 
+.lbl {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-top: 20px;
+	color: #00A7E1;
+}
+
 .field {
 	color: #00A7E1;
 	background: transparent;
 	border-bottom: transparent #00A7E1;
-	width: 50%;
+	width: 100%;
 	display: block;
 }
 
@@ -366,6 +372,10 @@ label {
 	font-size: 11px;
 }
 
+
+.container .rounded{
+	width: 150%;
+}
 
 footer {
 	background-color: #222222;
